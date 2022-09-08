@@ -302,13 +302,13 @@ a:hover {
 }
 
 .navbar-brand img {
-    height: 200px;
+    height: 51px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    width: 100%;
 }
 
 .nav-center .navbar-brand img {
@@ -478,6 +478,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    
 }
 
 .icon-lg {
@@ -677,12 +678,17 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+.titre {
+    font-size: 20px;
+}
+
+.p 
+{
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
-    width: 600px;
+    width: 100%;
     margin: auto auto auto auto;
 }
 
@@ -701,8 +707,10 @@ p {
 }
 
 .social {
-    width: 400px;
+    width: 100%;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -718,7 +726,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    width: 800px;
+    width: 100%;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -737,7 +745,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -754,7 +762,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #CCB985;
     padding: 40px 40px 40px 40px;
 }
 
@@ -772,12 +780,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #262626;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
-    background-color: #000000;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
@@ -791,7 +798,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white:hover {
@@ -820,14 +827,14 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -843,7 +850,7 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        width: 80%
+        /* width: 80% */
     }
     .nav-center.navbar .nav {
         width: 100%
